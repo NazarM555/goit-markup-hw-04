@@ -173,7 +173,13 @@ img {
   text-align: center;
   padding: 200px 0px;
 
-  background-color: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #c4c4c4;
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/imghero.jpg');
 }
 
 .hero-title {
