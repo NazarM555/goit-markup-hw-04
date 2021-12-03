@@ -233,6 +233,18 @@ img {
   width: 270px;
 }
 
+.item-about::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-size: ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
 .main-list .item:not(:last-child) {
   margin-right: 30px;
 }
