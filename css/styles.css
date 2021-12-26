@@ -338,8 +338,14 @@ img {
   height: 92px;
 }
 
+/*
 .clients-item + .clients-item {
   margin-left: 30px;
+}
+*/
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients-link {
